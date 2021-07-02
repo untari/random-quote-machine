@@ -5,7 +5,7 @@ class Loading extends Component {
     render(){
         return(
             <div className="loading-container">
-                <div className="loader-dzg" />
+                <div className="loader" />
             </div>
         );
     }
