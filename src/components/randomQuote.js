@@ -38,7 +38,7 @@ class RandomQuote extends Component {
                     </div>
                     <div className="button">
                         <a href={`https://twitter.com/intent/tweet?hashtags=quotes,freecodecamp&related=freecodecamp&text="${quote}" %0D%0A- ${author}%0D%0A`}
-                        className="button"
+                        className="b"
                         id="tweet-quote"
                         title="Tweet this quote!"
                         target="_blank"
