@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import quotesReducer from './quotesReducer';
+import quoteReducer from './quoteReducer';
 
 export default combineReducers({
-    quotes: quotesReducer
+    quotes: quoteReducer
 });

@@ -1,4 +1,4 @@
-import {NEW_QUOTE} from '../Redux';
+import {NEW_QUOTE, FETCH_QUOTES} from '../Redux';
 
 const initialState = {
   loading: true,
@@ -27,6 +27,12 @@ export default function(state = initialState, action){
             return{
                 ...state,
                 randomNumber: action.payload
+            };
+        case FETCH_QUOTES:
+            return{
+                ...state,
+                loading: false,
+                data: action.payload
             };
         default: 
             return state;
